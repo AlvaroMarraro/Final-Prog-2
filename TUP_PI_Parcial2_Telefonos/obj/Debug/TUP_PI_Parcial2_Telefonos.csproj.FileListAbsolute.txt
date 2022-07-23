@@ -1,0 +1,39 @@
+D:\Oscar\UTN\ProgramacionI\2021\1Cuatrimestre\Parcial2\TUP_PI_Parcial2_Telefonos\bin\Debug\TUP_PI_Parcial2_Telefonos.exe.config
+D:\Oscar\UTN\ProgramacionI\2021\1Cuatrimestre\Parcial2\TUP_PI_Parcial2_Telefonos\bin\Debug\TUP_PI_Parcial2_Telefonos.exe
+D:\Oscar\UTN\ProgramacionI\2021\1Cuatrimestre\Parcial2\TUP_PI_Parcial2_Telefonos\bin\Debug\TUP_PI_Parcial2_Telefonos.pdb
+D:\Oscar\UTN\ProgramacionI\2021\1Cuatrimestre\Parcial2\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.csprojAssemblyReference.cache
+D:\Oscar\UTN\ProgramacionI\2021\1Cuatrimestre\Parcial2\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.frmTelefono.resources
+D:\Oscar\UTN\ProgramacionI\2021\1Cuatrimestre\Parcial2\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.Properties.Resources.resources
+D:\Oscar\UTN\ProgramacionI\2021\1Cuatrimestre\Parcial2\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.csproj.GenerateResource.cache
+D:\Oscar\UTN\ProgramacionI\2021\1Cuatrimestre\Parcial2\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.csproj.CoreCompileInputs.cache
+D:\Oscar\UTN\ProgramacionI\2021\1Cuatrimestre\Parcial2\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.exe
+D:\Oscar\UTN\ProgramacionI\2021\1Cuatrimestre\Parcial2\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.pdb
+C:\Users\MARTIN\Desktop\Parcial II Prog I\TUP_PI_Parcial2_Telefonos\bin\Debug\TUP_PI_Parcial2_Telefonos.exe.config
+C:\Users\MARTIN\Desktop\Parcial II Prog I\TUP_PI_Parcial2_Telefonos\bin\Debug\TUP_PI_Parcial2_Telefonos.exe
+C:\Users\MARTIN\Desktop\Parcial II Prog I\TUP_PI_Parcial2_Telefonos\bin\Debug\TUP_PI_Parcial2_Telefonos.pdb
+C:\Users\MARTIN\Desktop\Parcial II Prog I\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.csprojAssemblyReference.cache
+C:\Users\MARTIN\Desktop\Parcial II Prog I\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.frmTelefono.resources
+C:\Users\MARTIN\Desktop\Parcial II Prog I\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.Properties.Resources.resources
+C:\Users\MARTIN\Desktop\Parcial II Prog I\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.csproj.GenerateResource.cache
+C:\Users\MARTIN\Desktop\Parcial II Prog I\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.csproj.CoreCompileInputs.cache
+C:\Users\MARTIN\Desktop\Parcial II Prog I\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.exe
+C:\Users\MARTIN\Desktop\Parcial II Prog I\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.pdb
+C:\Users\USER\OneDrive\Escritorio\Facu\Programacion 1\TUP_PI_Parcial2_Telefonos\bin\Debug\TUP_PI_Parcial2_Telefonos.exe.config
+C:\Users\USER\OneDrive\Escritorio\Facu\Programacion 1\TUP_PI_Parcial2_Telefonos\bin\Debug\TUP_PI_Parcial2_Telefonos.exe
+C:\Users\USER\OneDrive\Escritorio\Facu\Programacion 1\TUP_PI_Parcial2_Telefonos\bin\Debug\TUP_PI_Parcial2_Telefonos.pdb
+C:\Users\USER\OneDrive\Escritorio\Facu\Programacion 1\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.frmTelefono.resources
+C:\Users\USER\OneDrive\Escritorio\Facu\Programacion 1\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.Properties.Resources.resources
+C:\Users\USER\OneDrive\Escritorio\Facu\Programacion 1\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.csproj.GenerateResource.cache
+C:\Users\USER\OneDrive\Escritorio\Facu\Programacion 1\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Escritorio\Facu\Programacion 1\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.exe
+C:\Users\USER\OneDrive\Escritorio\Facu\Programacion 1\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.pdb
+E:\Facu\2do Semestre\Programacion II\FinalProg\TUP_PI_Parcial2_Telefonos\bin\Debug\TUP_PI_Parcial2_Telefonos.exe.config
+E:\Facu\2do Semestre\Programacion II\FinalProg\TUP_PI_Parcial2_Telefonos\bin\Debug\TUP_PI_Parcial2_Telefonos.exe
+E:\Facu\2do Semestre\Programacion II\FinalProg\TUP_PI_Parcial2_Telefonos\bin\Debug\TUP_PI_Parcial2_Telefonos.pdb
+E:\Facu\2do Semestre\Programacion II\FinalProg\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.csproj.AssemblyReference.cache
+E:\Facu\2do Semestre\Programacion II\FinalProg\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.frmTelefono.resources
+E:\Facu\2do Semestre\Programacion II\FinalProg\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.Properties.Resources.resources
+E:\Facu\2do Semestre\Programacion II\FinalProg\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.csproj.GenerateResource.cache
+E:\Facu\2do Semestre\Programacion II\FinalProg\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.csproj.CoreCompileInputs.cache
+E:\Facu\2do Semestre\Programacion II\FinalProg\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.exe
+E:\Facu\2do Semestre\Programacion II\FinalProg\TUP_PI_Parcial2_Telefonos\obj\Debug\TUP_PI_Parcial2_Telefonos.pdb

@@ -1,0 +1,31 @@
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe.config
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.pdb
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.AssemblyReference.cache
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.Frm_Alta.resources
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.Properties.Resources.resources
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.GenerateResource.cache
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.CoreCompileInputs.cache
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.exe
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.pdb
+C:\Users\USER\OneDrive\Escritorio\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe.config
+C:\Users\USER\OneDrive\Escritorio\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe
+C:\Users\USER\OneDrive\Escritorio\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.pdb
+C:\Users\USER\OneDrive\Escritorio\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Escritorio\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.Frm_Alta.resources
+C:\Users\USER\OneDrive\Escritorio\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.Properties.Resources.resources
+C:\Users\USER\OneDrive\Escritorio\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.GenerateResource.cache
+C:\Users\USER\OneDrive\Escritorio\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Escritorio\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.exe
+C:\Users\USER\OneDrive\Escritorio\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.pdb
+E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe.config
+E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe
+E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.pdb
+E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.Frm_Alta.resources
+E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.Properties.Resources.resources
+E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.GenerateResource.cache
+E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.CoreCompileInputs.cache
+E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.exe
+E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.pdb
+E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.AssemblyReference.cache
+E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.presentación.Form1.resources

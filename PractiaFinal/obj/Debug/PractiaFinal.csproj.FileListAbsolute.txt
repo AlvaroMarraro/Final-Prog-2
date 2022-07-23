@@ -1,0 +1,13 @@
+E:\Facu\2do Semestre\Programacion II\FinalProg\PractiaFinal\bin\Debug\PractiaFinal.exe.config
+E:\Facu\2do Semestre\Programacion II\FinalProg\PractiaFinal\bin\Debug\PractiaFinal.exe
+E:\Facu\2do Semestre\Programacion II\FinalProg\PractiaFinal\bin\Debug\PractiaFinal.pdb
+E:\Facu\2do Semestre\Programacion II\FinalProg\PractiaFinal\obj\Debug\PractiaFinal.csproj.AssemblyReference.cache
+E:\Facu\2do Semestre\Programacion II\FinalProg\PractiaFinal\obj\Debug\PractiaFinal.Form1.resources
+E:\Facu\2do Semestre\Programacion II\FinalProg\PractiaFinal\obj\Debug\PractiaFinal.Properties.Resources.resources
+E:\Facu\2do Semestre\Programacion II\FinalProg\PractiaFinal\obj\Debug\PractiaFinal.csproj.GenerateResource.cache
+E:\Facu\2do Semestre\Programacion II\FinalProg\PractiaFinal\obj\Debug\PractiaFinal.csproj.CoreCompileInputs.cache
+E:\Facu\2do Semestre\Programacion II\FinalProg\PractiaFinal\obj\Debug\PractiaFinal.exe
+E:\Facu\2do Semestre\Programacion II\FinalProg\PractiaFinal\obj\Debug\PractiaFinal.pdb
+E:\Facu\2do Semestre\Programacion II\FinalProg\PractiaFinal\obj\Debug\PractiaFinal.Vistas.FrmConsultar.resources
+E:\Facu\2do Semestre\Programacion II\FinalProg\PractiaFinal\obj\Debug\PractiaFinal.Vistas.FrmReporteProducto.resources
+E:\Facu\2do Semestre\Programacion II\FinalProg\PractiaFinal\obj\Debug\PractiaFinal.Vistas.FrmPresupuesto.resources
