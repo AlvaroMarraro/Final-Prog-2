@@ -29,3 +29,15 @@ E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSL
 E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.pdb
 E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.AssemblyReference.cache
 E:\Facu\2do Semestre\Programacion II\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.presentación.Form1.resources
+E:\Facu\2do Semestre\Programacion II\FinalProg\Final-Prog-2\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe.config
+E:\Facu\2do Semestre\Programacion II\FinalProg\Final-Prog-2\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe
+E:\Facu\2do Semestre\Programacion II\FinalProg\Final-Prog-2\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.pdb
+E:\Facu\2do Semestre\Programacion II\FinalProg\Final-Prog-2\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.AssemblyReference.cache
+E:\Facu\2do Semestre\Programacion II\FinalProg\Final-Prog-2\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.presentación.Frm_Consulta.resources
+E:\Facu\2do Semestre\Programacion II\FinalProg\Final-Prog-2\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.Frm_Alta.resources
+E:\Facu\2do Semestre\Programacion II\FinalProg\Final-Prog-2\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.presentación.Frm_Principal.resources
+E:\Facu\2do Semestre\Programacion II\FinalProg\Final-Prog-2\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.Properties.Resources.resources
+E:\Facu\2do Semestre\Programacion II\FinalProg\Final-Prog-2\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.GenerateResource.cache
+E:\Facu\2do Semestre\Programacion II\FinalProg\Final-Prog-2\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.CoreCompileInputs.cache
+E:\Facu\2do Semestre\Programacion II\FinalProg\Final-Prog-2\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.exe
+E:\Facu\2do Semestre\Programacion II\FinalProg\Final-Prog-2\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.pdb

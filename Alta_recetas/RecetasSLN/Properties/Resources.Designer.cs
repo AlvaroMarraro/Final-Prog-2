@@ -63,9 +63,9 @@ namespace RecetasSLN.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Data Source=ALVARONOTE\SQLEXPRESS;Initial Catalog=db_recetas;Integrated Security=True.
         /// </summary>
-        internal static string String1 {
+        internal static string strConexion {
             get {
-                return ResourceManager.GetString("String1", resourceCulture);
+                return ResourceManager.GetString("strConexion", resourceCulture);
             }
         }
     }

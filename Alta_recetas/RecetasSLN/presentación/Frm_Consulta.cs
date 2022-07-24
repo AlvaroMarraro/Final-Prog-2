@@ -14,11 +14,11 @@ using System.Windows.Forms;
 
 namespace RecetasSLN.presentación
 {
-    public partial class Form1 : Form
+    public partial class Frm_Consulta : Form
     {
 
         private IService servicio;
-        public Form1()
+        public Frm_Consulta()
         {
             InitializeComponent();
             servicio = new ServiceFactoryImp().CrearService();

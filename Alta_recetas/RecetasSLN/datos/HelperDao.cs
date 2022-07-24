@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RecetasSLN.dominio;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -12,9 +13,13 @@ namespace RecetasSLN.datos
     {
         private static HelperDao instancia;
         private string connectionString;
+        SqlConnection cnn;
+        SqlCommand cmd;
         private HelperDao()
         {
-            connectionString = @"Data Source=ALVARONOTE\SQLEXPRESS;Initial Catalog=db_recetas;Integrated Security=True";
+            connectionString = Properties.Resources.strConexion;
+            cnn = new SqlConnection(connectionString);
+            cmd = new SqlCommand();
         }
         public static HelperDao ObtenerInstancia()
         {
@@ -26,12 +31,11 @@ namespace RecetasSLN.datos
         }
         public DataTable ConsultaSQL(string storeName)
         {
-            SqlConnection cnn = new SqlConnection();
-            SqlCommand cmd = new SqlCommand();
+           
             DataTable tabla = new DataTable();
             try
             {
-                cnn.ConnectionString = connectionString;
+                cmd.Parameters.Clear();
                 cnn.Open();
                 cmd.Connection = cnn;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -43,18 +47,23 @@ namespace RecetasSLN.datos
             {
                 throw (ex);
             }
-            finally { this.CloseConnection(cnn); }
+            finally
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                {
+                    cnn.Close();
+                }
+            }
         }
 
         public int ProximoID(string nombreSP, string paramSP)
         {
-            SqlConnection cnn = new SqlConnection();
-            SqlCommand cmd = new SqlCommand();
+          
             SqlParameter param = new SqlParameter(paramSP, SqlDbType.Int);
 
             try
             {
-                cnn.ConnectionString = connectionString;
+                cmd.Parameters.Clear();
                 cnn.Open();
 
                 cmd.Connection = cnn;
@@ -72,19 +81,76 @@ namespace RecetasSLN.datos
             {
                 throw (ex);
             }
-            finally { this.CloseConnection(cnn); }
-        }
-
-        public void InsertarSQL(string nombreSP)
-        {
-
-        }
-        private void CloseConnection(SqlConnection cnn)
-        {
-            if (cnn.State == ConnectionState.Open)
+            finally
             {
-                cnn.Close();
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                {
+                    cnn.Close();
+                }
             }
         }
+
+        public void InsertarMaestroDetalleSQL(string SpMaestro, string SpDetalle, Recetas oReceta)
+        {
+            int filasAfectadas = 0;
+            SqlTransaction t = null;
+            try
+            {
+                cmd.Parameters.Clear();
+                cnn.Open();
+                t = cnn.BeginTransaction();
+                cmd.Connection = cnn;
+                cmd.Transaction = t;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = SpMaestro;
+
+                
+                cmd.Parameters.AddWithValue("@tipo_receta", oReceta.TipoReceta);
+                cmd.Parameters.AddWithValue("@nombre", oReceta.Nombre);
+                cmd.Parameters.AddWithValue("@cheff", oReceta.Cheff);
+                cmd.Parameters.AddWithValue("@fecha", oReceta.Fecha);
+
+                SqlParameter param = new SqlParameter("@id_receta", SqlDbType.Int);
+                param.Direction = ParameterDirection.Output;
+                cmd.Parameters.Add(param);
+
+                cmd.ExecuteNonQuery();
+
+                oReceta.RecetaNro = Convert.ToInt32(param.Value);
+
+                //hasta aca cmdMAestro
+
+                int detalleNro = 1;
+                foreach (DetalleRecetas item in oReceta.Detalles)
+                {
+                    SqlCommand cmdDet = new SqlCommand();
+                    cmdDet.Connection = cnn;
+                    cmdDet.Transaction = t;
+                    cmdDet.CommandType = CommandType.StoredProcedure;
+                    cmdDet.CommandText = SpDetalle;
+
+                    cmdDet.Parameters.AddWithValue("@RecetaNro", oReceta.RecetaNro);
+                    cmdDet.Parameters.AddWithValue("@id_ingrediente", item.Ingredientes.IngredientesId);
+                    cmdDet.Parameters.AddWithValue("@cantidad", item.Cantidad);
+
+
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                filasAfectadas = 0;
+                throw ex;
+            }
+            finally 
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                {
+                    cnn.Close();
+                }
+            }
+        }
+      
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace RecetasSLN.presentación
 {
-    partial class Form1
+    partial class Frm_Consulta
     {
         /// <summary>
         /// Required designer variable.
