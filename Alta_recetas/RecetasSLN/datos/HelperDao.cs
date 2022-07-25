@@ -90,7 +90,7 @@ namespace RecetasSLN.datos
             }
         }
 
-        public void InsertarMaestroDetalleSQL(string SpMaestro, string SpDetalle, Recetas oReceta)
+        public int InsertarMaestroDetalleSQL(string SpMaestro, string SpDetalle, Recetas oReceta)
         {
             int filasAfectadas = 0;
             SqlTransaction t = null;
@@ -104,23 +104,23 @@ namespace RecetasSLN.datos
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = SpMaestro;
 
-                
+                cmd.Parameters.AddWithValue("@id_receta", oReceta.RecetaNro);
                 cmd.Parameters.AddWithValue("@tipo_receta", oReceta.TipoReceta);
                 cmd.Parameters.AddWithValue("@nombre", oReceta.Nombre);
                 cmd.Parameters.AddWithValue("@cheff", oReceta.Cheff);
-                cmd.Parameters.AddWithValue("@fecha", oReceta.Fecha);
+                
 
-                SqlParameter param = new SqlParameter("@id_receta", SqlDbType.Int);
+                /*SqlParameter param = new SqlParameter("@id_receta", SqlDbType.Int);
                 param.Direction = ParameterDirection.Output;
-                cmd.Parameters.Add(param);
+                cmd.Parameters.Add(param);*/
 
                 cmd.ExecuteNonQuery();
 
-                oReceta.RecetaNro = Convert.ToInt32(param.Value);
+                //oReceta.RecetaNro = Convert.ToInt32(param.Value);
 
                 //hasta aca cmdMAestro
 
-                int detalleNro = 1;
+                
                 foreach (DetalleRecetas item in oReceta.Detalles)
                 {
                     SqlCommand cmdDet = new SqlCommand();
@@ -133,13 +133,15 @@ namespace RecetasSLN.datos
                     cmdDet.Parameters.AddWithValue("@id_ingrediente", item.Ingredientes.IngredientesId);
                     cmdDet.Parameters.AddWithValue("@cantidad", item.Cantidad);
 
-
+                    filasAfectadas = cmd.ExecuteNonQuery();
 
                 }
 
+                t.Commit();
             }
             catch (Exception ex)
             {
+                t.Rollback();
                 filasAfectadas = 0;
                 throw ex;
             }
@@ -150,6 +152,8 @@ namespace RecetasSLN.datos
                     cnn.Close();
                 }
             }
+
+            return filasAfectadas;
         }
       
     }

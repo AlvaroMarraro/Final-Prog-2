@@ -62,7 +62,7 @@ namespace RecetasSLN
             //pasar datos al objeto 
             oReceta.Nombre = txtNombre.Text;
             oReceta.Cheff = txtCheff.Text;
-            //oReceta.TipoReceta = Convert.ToInt32(cboTipo);
+            oReceta.TipoReceta = Convert.ToInt32(cboTipo.SelectedValue);
 
             if (servicio.GrabarReceta(oReceta))
             {

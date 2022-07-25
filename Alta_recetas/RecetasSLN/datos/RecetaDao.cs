@@ -116,56 +116,17 @@ namespace RecetasSLN.datos
 
         public bool SaveReceta(Recetas oReceta)
         {
-            SqlTransaction transaccion = null;
-            SqlConnection cnn = new SqlConnection(@"Data Source=ALVARONOTE\SQLEXPRESS;Initial Catalog=db_recetas;Integrated Security=True");
+            
+            bool resultado = true;
+            int filasAfectadas = 0;
 
-            bool flag = true;
-            try
-            {
-                cnn.Open();
-                transaccion = cnn.BeginTransaction();
+            string spMaestro = "SP_INSERTAR_RECETA";
+            string spDetalle = "SP_INSERTAR_DETALLES";
 
-                SqlCommand cmdMaestro = new SqlCommand("SP_INSERTAR_RECETA", cnn, transaccion);
-                cmdMaestro.CommandType = CommandType.StoredProcedure;
+            filasAfectadas = HelperDao.ObtenerInstancia().InsertarMaestroDetalleSQL(spMaestro, spDetalle, oReceta);
 
-                cmdMaestro.Parameters.AddWithValue("@id_receta", oReceta.RecetaNro);
-                cmdMaestro.Parameters.AddWithValue("@tipo_receta", oReceta.TipoReceta);
-                cmdMaestro.Parameters.AddWithValue("@nombre", oReceta.Nombre);
-                cmdMaestro.Parameters.AddWithValue("@cheff", oReceta.Cheff);
-
-                cmdMaestro.ExecuteNonQuery();
-                int contador = 1;
-                foreach (DetalleRecetas item in oReceta.Detalles)
-                {
-                    SqlCommand cmdDet = new SqlCommand();
-                    cmdDet.Connection = cnn;
-                    cmdDet.Transaction = transaccion;
-                    cmdDet.CommandType = CommandType.StoredProcedure;
-                    cmdDet.CommandText = "SP_INSERTAR_DETALLES";
-
-                    cmdDet.Parameters.AddWithValue("@id_receta", oReceta.RecetaNro);
-                    cmdDet.Parameters.AddWithValue("@id_ingrediente", item.Ingredientes.IngredientesId);
-                    cmdDet.Parameters.AddWithValue("@cantidad", item.Cantidad);
-
-                    cmdDet.ExecuteNonQuery();
-                    contador++;
-                }
-
-                transaccion.Commit();
-            }
-            catch (Exception ex)
-            {
-                transaccion.Rollback();
-                flag = false;
-            }
-            finally
-            {
-                if (cnn.State == ConnectionState.Open)
-                {
-                    cnn.Close();
-                }
-            }
-            return flag;
+            if (filasAfectadas == 0) resultado = false;
+            return resultado;
         }
 
 
